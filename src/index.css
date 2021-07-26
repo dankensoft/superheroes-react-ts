@@ -23,3 +23,7 @@ code {
   left: 688px;
   top: 57px;
 }
+
+* {
+  transition: 0.3s ease;
+}

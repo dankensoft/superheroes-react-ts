@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Preloader} from "./components/preloader/Preloader";
-import {Home} from "./components/home/Home";
+import {Show} from "./hooks/Show";
 
 function App() {
-  return (
-    <>
-        <Home />
-      <Preloader />
-    </>
-  );
+    return (
+        <>
+            <Show />
+        </>
+    );
 }
 
 export default App;
