@@ -1,0 +1,23 @@
+.search-input {
+    /* Search input */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+
+    position: static;
+    width: 371px;
+    height: 40px;
+    left: 795px;
+    top: 1px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}

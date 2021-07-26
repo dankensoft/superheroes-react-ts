@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.liked {
+    /* Liked superheros */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1198px;
+    height: 273px;
+    left: 129px;
+    top: 183px;
+
+    border: 1px solid rgba(106, 77, 188, 0.44);
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.title {
+    /* Title */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1198px;
+    height: 42px;
+    left: 16px;
+    top: 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.circle-heart {
+    /* Frame 9 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+    position: absolute;
+    width: 35px;
+    height: 34px;
+    left: 0px;
+    top: 4px;
+
+    background: #6A4DBC;
+    border-radius: 33px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.small-heart {
+    /* Path */
+    position: static;
+    left: 34.29%;
+    right: 34.29%;
+    top: 35.29%;
+    bottom: 35.29%;
+
+    /* Inside Auto Layout */
+    margin: 10px 0px;
+}
+
+.liked-text {
+    /* Liked */
+    position: absolute;
+    width: 78px;
+    height: 42px;
+    left: 43px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    letter-spacing: 0.725381px;
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 5px 20px;
+}
+
+.circle-collapse {
+    /* Frame 5 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 1126px;
+    top: 1px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 1137px -15px;
+}
+
+.arrow-up {
+    position: static;
+    left: 26.72%;
+    right: 26.72%;
+    top: 36.28%;
+    bottom: 36.28%;
+}
+
+.card-box {
+    /* Empty */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: static;
+    width: 1170px;
+    height: 175px;
+    left: 16px;
+    top: 90px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+
+.big-heart {
+    position: static;
+    left: 48.54%;
+    right: 48.54%;
+    top: 28.74%;
+    bottom: 51.5%;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+
+.empty-box-text {
+    /* You haven’t liked any superhero yet */
+    position: static;
+    left: 37.56%;
+    right: 37.56%;
+    top: 57.49%;
+    bottom: 28.74%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+    letter-spacing: 0.725381px;
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
