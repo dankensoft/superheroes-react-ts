@@ -47,7 +47,7 @@
     flex-direction: row;
     align-items: flex-start;
 
-    position: absolute;
+    position: static;
     width: 285px;
     height: 174px;
     left: 126px;
@@ -57,4 +57,118 @@
     backdrop-filter: blur(27px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
+    margin: 0px 16px 15px 0px;
+}
+
+.card-image {
+    /* Image */
+    position: absolute;
+    width: 105px;
+    height: 140px;
+    left: 16px;
+    top: 16px;
+
+    border-radius: 12px;
+}
+
+.card-box-text {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 132px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.card-name {
+    /* superhero name */
+    position: absolute;
+    width: 132px;
+    left: calc(50% - 15px/2);
+    top: 10%;
+    bottom: 68.13%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 143%;
+
+    /* identical to box height, or 29px */
+    letter-spacing: 0.300393px;
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.card-fullname {
+    /* superhero realname */
+    position: absolute;
+    left: 47%;
+    right: 0%;
+    top: 31.26%;
+    bottom: 24.18%;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.273085px;
+
+    color: rgba(255, 255, 255, 0.49);
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.card-circle-heart {
+    /* Rectangle 25 */
+    position: absolute;
+    left: 28.07%;
+    right: 55.09%;
+    top: 64.37%;
+    bottom: 8.05%;
+
+    background: #6A4DBC;
+    border-radius: 32px;
+}
+
+.medium-heart {
+    position: absolute;
+    left: 33.92%;
+    right: 61.17%;
+    top: 40.32%;
+    bottom: 18.02%;
+}
+
+.general-items {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    position: static;
+    left: 129px;
+    top: 518px;
 }
